@@ -1,0 +1,21 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/stu/computer_net/13-http-server'
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_timer.c -o tcp_timer.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude ip_base.c -o ip_base.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude rtable.c -o rtable.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude main.c -o main.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_in.c -o tcp_in.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude arp.c -o arp.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_sock.c -o tcp_sock.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude ip.c -o ip.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude http-server.c -o http-server.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude rtable_internal.c -o rtable_internal.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp.c -o tcp.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude arpcache.c -o arpcache.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude device_internal.c -o device_internal.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude icmp.c -o icmp.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_out.c -o tcp_out.o
+gcc -L. tcp_timer.o tcp_sock.o ip_base.o main.o arp.o tcp.o icmp.o rtable_internal.o ip.o http-server.o tcp_in.o rtable.o arpcache.o device_internal.o tcp_out.o -o http-server -lpthread 
+rm -f *.o
+make: Leaving directory '/home/stu/computer_net/13-http-server'
+ 

@@ -1,0 +1,647 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jun 18 20:45:15 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/stu/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 1)
+TARGET = http-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/stu/computer_net/13-http-server
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{}}
+# environment
+_ = /home/stu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+# makefile (from 'Makefile', line 7)
+CFLAGS = -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude
+# makefile (from 'Makefile', line 12)
+HDRS = ./include/*.h
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 16)
+OBJS = $(patsubst %.c,%.o,$(SRCS))
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/stu
+# environment
+SSH_CONNECTION = 10.0.2.2 7699 10.0.2.15 22
+# environment
+PATH = /home/stu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/stu/.local/bin:/home/stu/install/bin:/home/stu/install/bin:/home/stu/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/opt/riscv64-linux/bin:/home/stu/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 5)
+LD = gcc
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-f6fcb5c0-fc0c-4841-b5ee-cec25aee824a.sock
+# makefile (from 'Makefile', line 8)
+LDFLAGS = -L.
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/stu/computer_net/13-http-server
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/stu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = stu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 14)
+SRCS = $(wildcard *.c)
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 4)
+CC = gcc -w
+# environment
+XDG_SESSION_ID = 4
+# environment
+USER = stu
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:en
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 10.0.2.2 7699 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/stu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 10)
+LIBS = -lpthread
+# environment
+LC_PAPER = zh_CN.UTF-8
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=16/127=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (device 2050, inode 2228853): 22 files, no impossibilities.
+# . (device 2050, inode 2228431): 43 files, no impossibilities.
+
+# 65 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+device_internal.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+icmp.o: icmp.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'icmp'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+tcp_sock.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: http-server cleano
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+tcp.o: tcp.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'tcp'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+ip_base.o: ip_base.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'ip_base'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/tcp_sock.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-17 11:39:03.934254994
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/arpcache.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 14:07:07.354679596
+#  File has been updated.
+#  Successfully updated.
+
+http-server.o: http-server.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+ 
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'http-server'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+http-server: tcp_timer.o ip_base.o rtable.o main.o tcp_in.o arp.o tcp_sock.o ip.o http-server.o rtable_internal.o tcp.o arpcache.o device_internal.o icmp.o tcp_out.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-18 19:35:20.676475192
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 22):
+	$(LD) $(LDFLAGS) $(OBJS) -o $(TARGET) $(LIBS) 
+
+ip.o: ip.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'ip'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/icmp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+rtable.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/hash.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:16:06.669999013
+#  File has been updated.
+#  Successfully updated.
+
+rtable_internal.o: rtable_internal.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'rtable_internal'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/arp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.038901719
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/checksum.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+icmp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/ip.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+tcp_timer.o: tcp_timer.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'tcp_timer'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := tcp_timer.o
+# automatic
+# % := 
+# automatic
+# * := tcp_timer
+# automatic
+# + := tcp_timer.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+# automatic
+# | := 
+# automatic
+# < := tcp_timer.c
+# automatic
+# ^ := tcp_timer.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+# automatic
+# ? := tcp_timer.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/list.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+tcp_out.o: tcp_out.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'tcp_out'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+arpcache.o: arpcache.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'arpcache'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/ring_buffer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ip_base.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/ether.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.074901909
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/synch_wait.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/base.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.04290174
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/tcp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+http-server.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ip.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+arp.o: arp.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'arp'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+tcp_in.o: tcp_in.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'tcp_in'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/log.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.094902015
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+rtable_internal.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	rm -f *.o $(TARGET)
+
+cleano:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	rm -f *.o
+
+tcp_sock.o: tcp_sock.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'tcp_sock'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/packet.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/rtable.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcp_timer.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-18 15:25:33.261528807
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcp_out.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+arpcache.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/tcp_apps.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 14:47:02.601953795
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/tcp_timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-18 18:35:03.622821582
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+rtable.o: rtable.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'rtable'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+device_internal.o: device_internal.c include/tcp_apps.h include/rtable.h include/tcp.h include/log.h include/list.h include/arp.h include/tcp_sock.h include/synch_wait.h include/ip.h include/ether.h include/checksum.h include/tcp_hash.h include/hash.h include/ring_buffer.h include/arpcache.h include/icmp.h include/base.h include/tcp_timer.h include/types.h include/packet.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'device_internal'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+include/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.11490212
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+arp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tcp_in.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/tcp_hash.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 13:08:24.098902036
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=57/1024=6%, Rehash=0, Collisions=2/402=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 121 / storage = 1276 B / avg = 10 B
+# current buf: size = 8162 B / used = 1276 B / count = 121 / avg = 10 B
+
+# strcache performance: lookups = 182 / hit rate = 33%
+# hash-table stats:
+# Load=121/8192=1%, Rehash=0, Collisions=3/182=2%
+# Finished Make data base on Sat Jun 18 20:45:15 2022
+
+ 

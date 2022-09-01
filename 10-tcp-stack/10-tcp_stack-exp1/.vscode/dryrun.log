@@ -1,0 +1,14 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/stu/computer_net/10-tcp_stack_exp2'
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude ip.c -o ip.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude main.c -o main.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp.c -o tcp.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_apps.c -o tcp_apps.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_in.c -o tcp_in.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_out.c -o tcp_out.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_sock.c -o tcp_sock.o
+gcc -w -c -g -Wall -Wno-unused-variable -Wno-unused-function -Iinclude tcp_timer.c -o tcp_timer.o
+gcc -L. ip.o main.o tcp.o tcp_apps.o tcp_in.o tcp_out.o tcp_sock.o tcp_timer.o -o tcp_stack -lipstack -lpthread 
+rm -f *.o
+make: Leaving directory '/home/stu/computer_net/10-tcp_stack_exp2'
+ 

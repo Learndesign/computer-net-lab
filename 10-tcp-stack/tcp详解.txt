@@ -1,0 +1,3 @@
+淘宝二面，面试官居然把TCP三次握手问的这么详细：https://blog.51cto.com/u_15127677/2847615
+TCP协议详解：https://juejin.cn/post/6844903685563105293
+糊涂窗口综合征：https://blog.51cto.com/JavaAlliance/5220886

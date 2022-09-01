@@ -1,0 +1,5 @@
+DEBUG: find the following interfaces:  h1-eth0.
+DEBUG: listen to port 10001.
+DEBUG: accept a connection.
+ERROR: SYN|FIN out of order.
+DEBUG: close this connection.
